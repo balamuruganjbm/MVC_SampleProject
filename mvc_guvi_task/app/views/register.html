@@ -1,0 +1,33 @@
+<div id='header'></div>
+<div class="container">
+    <div class="row ">
+        <div style="margin: 0 auto">
+        <h1 class="display-4 text-info" id="regHead">REGISTER</h1>
+            <form class="register" action="../models/PDOregister" method="post">
+            <div class="form-group">
+                <div class="form-group">
+                <label for="name">USER NAME</label><br>
+                <input type="text" class="form-control" id="name" name="username" placeholder="Enter new username" required>
+                </div>
+                <div class="form-group">
+                <label for="name">EMAIl ID</label><br>
+                <input type="email" class="form-control" id="mail" name="email" placeholder="Enter your email id" required>
+                </div>
+                <div class="form-group">
+                <label for="pass">PASSWORD</label><br>
+                <input type="password" class="form-control" id="pass" name="password" placeholder="Enter new password" required>
+                </div>
+                <button type="submit" class="btn btn-lg btn-block btn-outline-info">REGISTER</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="main"></script>
+</body>
+</html>
